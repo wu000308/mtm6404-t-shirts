@@ -4,9 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>T-Shirts</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  />
 </head>
 <body>
-  
-  
+  <div class="container mt-5">
+    <h1 class="text-center">T-Shirt Store</h1>
+    <div id="root"></div> 
+  </div>
+
+  <!-- Load React and ReactDOM from CDN -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Babel to compile JSX in the browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel" src="app.js"></script>
+
 </body>
 </html>
